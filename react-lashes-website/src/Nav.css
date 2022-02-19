@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  color: #fff;
+  width: 100%;
+}
+
+.container-fluid {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  padding: 15px 90px 0;
+  background: transparent;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: rgb(190, 190, 190);
+}

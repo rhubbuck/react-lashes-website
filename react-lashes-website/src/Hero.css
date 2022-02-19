@@ -1,0 +1,36 @@
+.hero-background {
+  height: 100vh;
+  background-image: url("../public/Images/pexels-ali-pazani.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero-content {
+  color: #fff;
+  padding-top: 18rem;
+  text-align: left;
+  padding-left: 14rem;
+}
+
+.hero-title {
+  font-size: 74px;
+}
+
+.schedule-button {
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 2px;
+  padding: 0.5rem 2rem;
+  margin-left: 4rem;
+  background-color: rgba(180, 180, 180, 0.5);
+  transition: all 0.3s;
+}
+
+.schedule-button:hover {
+  background-color: rgba(218, 218, 218, 0.5);
+}
