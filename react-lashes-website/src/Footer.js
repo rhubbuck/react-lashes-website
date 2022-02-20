@@ -74,20 +74,20 @@ const Footer = () => {
           <h6 class="text-uppercase fw-bold mb-4">
             Contact
           </h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p><i class="fas fa-home me-3"></i> 222 road Gadsden, AL 11111</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
             info@example.com
           </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          <p><i class="fas fa-phone me-3"></i>(222)222-2222</p>
+          <p><i class="fas fa-print me-3"></i>Hours: </p>
         </div>
        
       </div>
       </div>
   </section>
  <div class="text-center p-4" >
-    © 2021 Copyright:
+    © 2021:
     Ryan Hubbuck
   </div>
  
