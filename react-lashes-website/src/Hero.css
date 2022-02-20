@@ -1,6 +1,6 @@
 .hero-background {
   height: 100vh;
-  background-image: url("../public/Images/pexels-ali-pazani.jpg");
+  background-image: url("./Images/pexels-ali-pazani.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
