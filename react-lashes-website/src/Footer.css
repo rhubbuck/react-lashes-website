@@ -2,8 +2,21 @@
   margin: 0 15rem;
 }
 
+.footer-link-wrapper {
+  margin: 0 12rem;
+}
+
+.footer-columns {
+  justify-content: space-between;
+}
+
 #instagram,
 #facebook,
 #twitter {
   width: 22px;
+}
+
+.column1,
+.column2 {
+  width: 50%;
 }

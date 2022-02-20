@@ -11,11 +11,11 @@ const Footer = () => {
 <footer class="text-center text-lg-start bg-light text-muted">
 
   <section
-    class="d-flex justify-content-center justify-content-md-between p-4 border-bottom"
+    class="d-flex justify-content-center p-4 border-bottom"
     id='social-wrapper'
   >
     
-    <div class="me-5 d-none d-lg-block">
+    <div className="me-5 d-none d-lg-block">
       <span>Get connected with me on social networks:</span>
     </div>
     <div>
@@ -37,10 +37,10 @@ const Footer = () => {
  
 
  
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <div class="row mt-3">
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+  <section class="footer-link-wrapper">
+    <div class="container text-center mt-5">
+      <div class="row mt-3 footer-columns">
+        <div class="column1 mb-4">
           <h6 class="text-uppercase fw-bold mb-4">
             Useful links
           </h6>
@@ -69,7 +69,7 @@ const Footer = () => {
         </p>
       </div>
       */}
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <div class="column2  mb-md-0 mb-4">
         
           <h6 class="text-uppercase fw-bold mb-4">
             Contact
