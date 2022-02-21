@@ -3,5 +3,40 @@
 }
 
 .card-image {
-  height: 500px;
+  height: 400px;
+  border-radius: 3rem 3rem 0 0;
+}
+
+.service-card {
+  border-radius: 3rem;
+  min-height: 750px;
+}
+
+.card-time {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 5px;
+}
+
+.book-button {
+  background-color: rgb(104, 104, 104);
+  border: none;
+  transition: all 0.2s;
+}
+
+.book-button:hover {
+  background-color: aliceblue;
+  color: rgb(104, 104, 104);
+  border: 1px solid rgb(104, 104, 104);
+}
+
+.card-text {
+  margin: 1.5rem;
+  padding: 1rem;
+  border-top: 1px solid rgb(138, 138, 138);
+  border-bottom: 1px solid rgb(138, 138, 138);
+  line-height: 1.7;
+}
+
+.card-title {
 }
