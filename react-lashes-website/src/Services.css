@@ -1,15 +1,18 @@
 .services-wrapper {
-  margin: 12rem;
+  margin: 6rem 14rem;
 }
 
 .card-image {
-  height: 400px;
+  height: 300px;
   border-radius: 3rem 3rem 0 0;
+  padding: 30px;
 }
 
 .service-card {
   border-radius: 3rem;
-  min-height: 750px;
+  min-height: 600px;
+  margin: 20px;
+  background-color: rgb(250, 216, 222);
 }
 
 .card-time {
@@ -36,7 +39,4 @@
   border-top: 1px solid rgb(138, 138, 138);
   border-bottom: 1px solid rgb(138, 138, 138);
   line-height: 1.7;
-}
-
-.card-title {
 }

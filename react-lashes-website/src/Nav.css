@@ -4,6 +4,13 @@
   position: fixed;
   color: #fff;
   width: 100%;
+  transition-timing-function: ease-in;
+  transition: all 0.3s;
+  z-index: 2;
+}
+
+.nav-color {
+  background-color: rgb(250, 216, 222);
 }
 
 .container-fluid {
