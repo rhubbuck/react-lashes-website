@@ -3,6 +3,7 @@ import './Services.css';
 import { Container} from 'react-bootstrap';
 import { Card, CardImg, Button, Row, Col } from 'react-bootstrap';
 import Lash from './Images/lash-filler-pic.jpeg';
+import Arrow from './Images/arrow-right.svg';
 
 const Services = () => {
   return (
@@ -11,7 +12,7 @@ const Services = () => {
             <Row style={{margin: '15px'}}>
                 <Col>
                     <Card className='service-card'>
-                        <CardImg className='card-image' variant="top" src={Lash}/>
+                        {/* <CardImg className='card-image' variant="top" src={Lash}/> */}
                         <Card.Body>
                             <Card.Title>Classic Full Set <p className='card-time'>2 hours</p></Card.Title>
                             <Card.Text style={{paddingBottom: '43px'}}>
@@ -24,7 +25,7 @@ const Services = () => {
                     </Col>
                     <Col>
                     <Card className='service-card'>
-                        <CardImg className='card-image' variant="top" src={Lash} />
+                        {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Volume Full Set <p className='card-time'>2 hours 40 min.</p></Card.Title>
                             <Card.Text>
@@ -40,7 +41,7 @@ const Services = () => {
             <Row style={{margin: '15px'}}>
                 <Col>
                     <Card className='service-card'>
-                        <CardImg className='card-image' variant="top" src={Lash} />
+                        {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Mega Volume Full Set <p className='card-time'>2 hours 30 min.</p></Card.Title>
                             <Card.Text>
@@ -53,7 +54,7 @@ const Services = () => {
                     </Col>
                     <Col>
                     <Card className='service-card'>
-                        <CardImg className='card-image' variant="top" src={Lash} />
+                        {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Luxury classics <p className='card-time'>2 hours</p></Card.Title>
                             <Card.Text>
@@ -68,7 +69,7 @@ const Services = () => {
             <Row style={{margin: '15px'}}>
                 <Col>
                     <Card className='service-card'>
-                        <CardImg className='card-image' variant="top" src={Lash} />
+                        {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Hybrid Lashes <p className='card-time'>2 hours</p></Card.Title>
                             <Card.Text>
@@ -81,7 +82,7 @@ const Services = () => {
                 </Col>
                 <Col>
                     <Card className='service-card'>
-                        <CardImg className='card-image' variant="top" src={Lash} />
+                        {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Classic Fill In<p className='card-time'>1 hour 30 min.</p></Card.Title>
                             <Card.Text>
@@ -96,7 +97,7 @@ const Services = () => {
             <Row style={{margin: '15px'}}>
                 <Col sm={6}>
                     <Card className='service-card'>
-                        <CardImg className='card-image' variant="top" src={Lash} />
+                        {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Hybrid Fill In<p className='card-time'>1 hour 5 min.</p></Card.Title>
                             <Card.Text>
@@ -105,6 +106,12 @@ const Services = () => {
                             </Card.Text>
                             <Button className='book-button'>BOOK NOW</Button>
                         </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card className='service-card'>
+                        <h3 className='service-gallery-text'>View my gallery!</h3>
+                        <Button className='service-arrow-button'><img src={Arrow} alt='arrow button' style={{width: '25px'}}/></Button>
                     </Card>
                 </Col>
             </Row>

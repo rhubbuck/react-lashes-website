@@ -48,14 +48,19 @@
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 4px;
-  color: #adadad;
-  background-color: #fff;
+  background-color: #9046cf;
+  /* background-color: #fff; */
+  color: #fff;
   transition: all 0.2s;
 }
 
 .contact-submit:hover {
   background-color: rgb(250, 216, 222);
   color: #fff;
+  background-color: #eafdf8;
+  color: rgb(104, 104, 104);
+  border: 1px solid rgb(104, 104, 104);
+  box-shadow: 4px 4px 4px #719ece;
 }
 
 .contact-textarea {

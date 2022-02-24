@@ -20,7 +20,7 @@ const Contact = () => {
 
   return (
     <div className='contact-wrapper'>
-        <h1 className='contact-header'>(123) 123 - 1234</h1>
+        <h1 className='contact-header'>(123) 123-1234</h1>
         <h2 className='contact-subheader'>Have a question? Contact me here!</h2>
          <form ref={form} onSubmit={sendEmail} className="contact-form">
             <label className='contact-label'>Name</label>
@@ -29,7 +29,7 @@ const Contact = () => {
             <input type="email" name="email" required className='contact-input' />
             <label className='contact-label'>Message</label>
             <textarea name="message" required className='contact-textarea' />
-            <input type="submit" value="Send Message" className='contact-submit' />
+            <input type="submit" value="SEND" className='contact-submit' />
         </form>
     </div>
   )

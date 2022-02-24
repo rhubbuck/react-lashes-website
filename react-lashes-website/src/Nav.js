@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './Nav.css';
 import { Nav } from 'react-bootstrap';
+import Logo from './Images/logo-andrea.png';
+import TransparentLogo from './Images/transparent-logo.png';
 
 const Navbar = () => {
 
@@ -20,8 +22,7 @@ const Navbar = () => {
   return (
     <nav className={`navbar navbar-transparent ${show && "nav-color"}`}>
         <div class="container-fluid">
-            {/* <span class="navbar-brand mb-0 h1">Navbar</span> */}
-            <h1>Logo</h1>
+            <img src={Logo} alt='logo' className='logo'/>
         </div>
         <Nav className="justify-content-end" activeKey="/home">
             <Nav.Item>
@@ -29,6 +30,9 @@ const Navbar = () => {
             </Nav.Item>
             <Nav.Item>
             <Nav.Link eventKey="link-1">Services</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+            <Nav.Link eventKey="link-1">Gallery</Nav.Link>
             </Nav.Item>
             <Nav.Item>
             <Nav.Link eventKey="link-2">Schedule</Nav.Link>

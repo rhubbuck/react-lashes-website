@@ -51,10 +51,13 @@ const Footer = () => {
             <a href="#!" class="text-reset">Services</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Photos</a>
+            <a href="#!" class="text-reset">Gallery</a>
           </p>
           <p>
             <a href="#!" class="text-reset">Schedule</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Contact</a>
           </p>
         </div>
 

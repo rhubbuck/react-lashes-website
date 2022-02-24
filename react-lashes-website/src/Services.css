@@ -10,19 +10,23 @@
 
 .service-card {
   border-radius: 3rem;
-  min-height: 600px;
+  /* min-height: 600px; */
+  min-height: 350px;
   margin: 20px;
-  background-color: rgb(250, 216, 222);
+  /* background-color: rgb(250, 216, 222); */
+  background-color: #9046cf;
 }
 
 .card-time {
   font-weight: 400;
   font-size: 18px;
   margin: 5px;
+  color: #eafdf8;
 }
 
 .book-button {
-  background-color: rgb(104, 104, 104);
+  background-color: #eafdf8;
+  color: #cc59d2;
   border: none;
   transition: all 0.2s;
 }
@@ -36,7 +40,31 @@
 .card-text {
   margin: 1.5rem;
   padding: 1rem;
-  border-top: 1px solid rgb(138, 138, 138);
-  border-bottom: 1px solid rgb(138, 138, 138);
+  color: #eafdf8;
+  border-top: 1px solid #eafdf8;
+  border-bottom: 1px solid #eafdf8;
   line-height: 1.7;
+}
+
+.card-title {
+  color: #eafdf8;
+}
+
+.service-gallery-text {
+  margin-top: 4rem;
+  color: #eafdf8;
+}
+
+.service-arrow-button {
+  width: 5rem;
+  align-self: center;
+  margin-top: 2rem;
+  background-color: #eafdf8;
+  border: none;
+  transition: all 0.2s;
+}
+
+.service-arrow-button:hover {
+  background-color: #eafdf8;
+  transform: translateX(10px) scaleX(1.2);
 }

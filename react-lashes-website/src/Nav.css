@@ -9,8 +9,13 @@
   z-index: 2;
 }
 
+.logo {
+  width: 90px;
+}
+
 .nav-color {
-  background-color: rgb(250, 216, 222);
+  /* background-color: rgb(250, 216, 222); */
+  background-color: #9046cf;
 }
 
 .container-fluid {
@@ -29,5 +34,6 @@ nav {
 }
 
 .nav-link:hover {
-  color: rgb(190, 190, 190);
+  /* color: rgb(190, 190, 190); */
+  color: #e5e9ec;
 }
