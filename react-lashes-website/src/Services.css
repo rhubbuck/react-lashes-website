@@ -52,19 +52,24 @@
 
 .service-gallery-text {
   margin-top: 4rem;
-  color: #eafdf8;
+  color: #9046cf;
 }
 
 .service-arrow-button {
   width: 5rem;
   align-self: center;
   margin-top: 2rem;
-  background-color: #eafdf8;
+  background-color: #fff;
   border: none;
   transition: all 0.2s;
 }
 
 .service-arrow-button:hover {
-  background-color: #eafdf8;
+  background-color: #fff;
   transform: translateX(10px) scaleX(1.2);
+}
+
+#gallery-card {
+  background-color: #fff;
+  border: 2px solid #9046cf;
 }

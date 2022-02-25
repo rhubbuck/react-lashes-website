@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './Nav.css';
 import { Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 import Logo from './Images/logo-andrea.png';
-import TransparentLogo from './Images/transparent-logo.png';
 
 const Navbar = () => {
 
@@ -26,16 +26,19 @@ const Navbar = () => {
         </div>
         <Nav className="justify-content-end" activeKey="/home">
             <Nav.Item>
-            <Nav.Link className='nav-link' href="/home">About</Nav.Link>
+            <Link className='nav-link' to="/">Home</Link>
             </Nav.Item>
             <Nav.Item>
-            <Nav.Link eventKey="link-1">Services</Nav.Link>
+            <Nav.Link className='nav-link' >Services</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-            <Nav.Link eventKey="link-1">Gallery</Nav.Link>
+            <Link className='nav-link' to="/gallery" >Gallery</Link>
             </Nav.Item>
             <Nav.Item>
-            <Nav.Link eventKey="link-2">Schedule</Nav.Link>
+            <Nav.Link className='nav-link'>Schedule</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+            <Link className='nav-link' to="/contact">Contact</Link>
             </Nav.Item>
         </Nav>
     </nav>

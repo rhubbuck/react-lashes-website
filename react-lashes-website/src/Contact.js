@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
+import RouteNav from './RouteNav';
 
 const Contact = () => {
 
@@ -20,6 +21,8 @@ const Contact = () => {
 
   return (
     <div className='contact-wrapper'>
+      <RouteNav />
+        <div className='contact-container'>
         <h1 className='contact-header'>(123) 123-1234</h1>
         <h2 className='contact-subheader'>Have a question? Contact me here!</h2>
          <form ref={form} onSubmit={sendEmail} className="contact-form">
@@ -31,6 +34,7 @@ const Contact = () => {
             <textarea name="message" required className='contact-textarea' />
             <input type="submit" value="SEND" className='contact-submit' />
         </form>
+        </div>
     </div>
   )
 }

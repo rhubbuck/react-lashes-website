@@ -1,9 +1,11 @@
 .contact-wrapper {
-  /* margin: 8rem 26rem; */
-  width: 40%;
-  margin: 80px auto;
   display: flex;
   flex-direction: column;
+}
+
+.contact-container {
+  margin: 140px auto;
+  width: 40%;
 }
 
 .contact-form {

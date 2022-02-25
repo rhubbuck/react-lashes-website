@@ -109,7 +109,7 @@ const Services = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card className='service-card'>
+                    <Card className='service-card' id='gallery-card'>
                         <h3 className='service-gallery-text'>View my gallery!</h3>
                         <Button className='service-arrow-button'><img src={Arrow} alt='arrow button' style={{width: '25px'}}/></Button>
                     </Card>

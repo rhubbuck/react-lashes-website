@@ -6,16 +6,25 @@ import About from './About';
 import Footer from './Footer';
 import Services from './Services';
 import Contact from './Contact';
+import Home from './Home';
+import Gallery from './Gallery';
+import { Routes , Route, BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-       <Hero />
+    <Router>
+       {/* <Hero />
        <About />
        <Contact />
-       <Services />
+       <Services /> */}
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route exact path="/contact" element={<Contact/>} />
+          <Route exact path="/gallery" element={<Gallery/>}/>
+        </Routes>
        <Footer />
+       </Router>
     </div>
   );
 }
