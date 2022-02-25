@@ -8,6 +8,13 @@ import Arrow from './Images/arrow-right.svg';
 const Services = () => {
   return (
     <div className='services-wrapper'>
+        <h1 className='services-title'>My Services</h1>
+        <div className='service-images-wrapper'>
+            <img className='services-lash-image' src={Lash} alt='lashes'/>
+            <img className='services-lash-image' src={Lash} alt='lashes'/>
+            <img className='services-lash-image' src={Lash} alt='lashes'/>
+            <img className='services-lash-image' src={Lash} alt='lashes'/>
+        </div>
         <Container className='services-grid'>
             <Row style={{margin: '15px'}}>
                 <Col>

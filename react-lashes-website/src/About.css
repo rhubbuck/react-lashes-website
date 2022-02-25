@@ -1,3 +1,35 @@
 .about-container {
-  height: 80vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-top: -70px;
+  padding-bottom: 20px;
+  border-radius: 2rem;
+  border: 2px solid purple;
+}
+
+.about-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about-title {
+  font-size: 44px;
+}
+
+.about-profile-picture {
+  width: 230px;
+  border-radius: 0.5rem;
+  margin: 0 20px;
+}
+
+.about-inner-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.about-text {
+  width: 50%;
+  margin: 0 20px;
+  text-align: left;
 }

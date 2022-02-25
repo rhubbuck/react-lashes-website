@@ -1,5 +1,6 @@
 .services-wrapper {
-  margin: 6rem 14rem;
+  margin: 3rem 14rem;
+  padding-top: 0;
 }
 
 .card-image {
@@ -72,4 +73,9 @@
 #gallery-card {
   background-color: #fff;
   border: 2px solid #9046cf;
+}
+
+.services-lash-image {
+  width: 150px;
+  border-radius: 50%;
 }
