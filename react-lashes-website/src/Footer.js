@@ -2,7 +2,8 @@ import React from 'react';
 import './Footer.css';
 import facebook from './Images/facebook.svg';
 import instagram from './Images/instagram.svg';
-import twitter from './Images/twitter.svg'
+import twitter from './Images/twitter.svg';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -31,12 +32,7 @@ const Footer = () => {
       </a>
     </div>
     
-  </section>
-
-  
- 
-
- 
+  </section> 
   <section class="footer-link-wrapper">
     <div class="container text-center mt-5">
       <div class="row mt-3 footer-columns">
@@ -45,33 +41,18 @@ const Footer = () => {
             Useful links
           </h6>
           <p>
-            <a href="#!" class="text-reset">About</a>
+          <Link className='footer-link' to='/'>Home</Link>
           </p>
           <p>
-            <a href="#!" class="text-reset">Services</a>
+            <Link className='footer-link' to='/gallery'>Gallery</Link>
           </p>
           <p>
-            <a href="#!" class="text-reset">Gallery</a>
+          <a className='footer-link' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">Schedule</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Schedule</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Contact</a>
+          <Link className='footer-link' to='/contact'>Contact</Link>
           </p>
         </div>
-
-        {/* <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-        
-        <h6 class="text-uppercase fw-bold mb-4">
-          <i class="fas fa-gem me-3"></i>Lashes by Aundrea
-        </h6>
-        <p>
-          Here you can use rows and columns to organize your footer content. Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit.
-        </p>
-      </div>
-      */}
         <div class="column2  mb-md-0 mb-4">
         
           <h6 class="text-uppercase fw-bold mb-4">
@@ -80,7 +61,7 @@ const Footer = () => {
           <p><i class="fas fa-home me-3"></i> 222 road Gadsden, AL 11111</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
-            info@example.com
+            andreaflores1510@gmail.com
           </p>
           <p><i class="fas fa-phone me-3"></i>(222)222-2222</p>
           <p><i class="fas fa-print me-3"></i>Hours: </p>

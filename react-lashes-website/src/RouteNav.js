@@ -16,9 +16,6 @@ const RouteNav = () => {
                 <Link className='nav-link' to="/">Home</Link>
                 </Nav.Item>
                 <Nav.Item>
-                <Nav.Link className='nav-link' >Services</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
                 <Link className='nav-link' to="/gallery" >Gallery</Link>
                 </Nav.Item>
                 <Nav.Item>

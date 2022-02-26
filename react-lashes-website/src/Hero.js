@@ -9,7 +9,7 @@ const Hero = () => {
                 <h1 className='hero-title'>Lashes by Aundrea</h1>
             </div>
             <div className='hero-button-box'>
-                <button className='schedule-button'>Schedule</button>
+                <a className='hero-link' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">Schedule</a>
             </div>
         </div>
     </div>

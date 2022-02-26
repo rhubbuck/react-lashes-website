@@ -1,7 +1,7 @@
 import React from 'react';
 import './Services.css';
 import { Container} from 'react-bootstrap';
-import { Card, CardImg, Button, Row, Col } from 'react-bootstrap';
+import { Card, Button, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Lash from './Images/lash-filler-pic.jpeg';
 import Arrow from './Images/arrow-right.svg';
@@ -40,7 +40,7 @@ const Services = () => {
                             A classic lash set includes one lash extension per natural for a noticeable yet wearable look!
                             Appointment may last longer or shorter depending on the amount of natural lashes you have.
                             </Card.Text>
-                            <Button className='book-button'><a target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a></Button>
+                            <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
                     </Card>
                     </Col>
@@ -54,7 +54,7 @@ const Services = () => {
                             per natural lash for a dramatic glam look. Appointment may last longer or shorter depending 
                             on the amount of natural lashes you have.
                             </Card.Text>
-                            <Button className='book-button'><a target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a></Button>
+                            <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -69,7 +69,7 @@ const Services = () => {
                             For the ladies who love GLAM! This set is the fullest you can go with lashes,
                             giving your lashes a dramatic look.
                             </Card.Text>
-                            <Button className='book-button'><a target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a></Button>
+                            <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
                     </Card>
                     </Col>
@@ -82,7 +82,7 @@ const Services = () => {
                             i dont have the text yet aksjdkl fajkd sjfk asjk fjas kjfd kas jdfk
                             ljaksd asjdfk ljas fd jfdskj asdlkjasdlkj sadklj fd dsaf 
                             </Card.Text>
-                            <Button className='book-button'><a target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a></Button>
+                            <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -97,7 +97,7 @@ const Services = () => {
                             Hybrid lashes is a combination of volume and classic lashes.
                             Choosing hybrid lashes is the best of both worlds giving you volume and length.
                             </Card.Text>
-                            <Button className='book-button'><a target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a></Button>
+                            <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -110,7 +110,7 @@ const Services = () => {
                             Book this for your 2-3 week classic fill! If it has been more than 3 weeks
                             since your last classic set/ last fill, please book a full set.
                             </Card.Text>
-                            <Button className='book-button'><a target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a></Button>
+                            <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -125,7 +125,7 @@ const Services = () => {
                             I dont have the text yet so ... ksdjakj fdska jfd kfad js
                             kasdjk ask asdfk asfkj safdkj klasdfj ksafdj kasfdjkasfj kfasj ksfd k
                             </Card.Text>
-                            <Button className='book-button'><a target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a></Button>
+                            <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -134,7 +134,7 @@ const Services = () => {
                         <h3 className='service-gallery-text'>View my gallery!</h3>
                         <Button className='service-arrow-button'>
                             <Link to='/gallery'>
-                                <img src={Arrow} alt='arrow button' style={{width: '25px'}}/>
+                                <img src={Arrow} alt='arrow button' style={{width: '44px'}}/>
                             </Link>
                         </Button>
                     </Card>

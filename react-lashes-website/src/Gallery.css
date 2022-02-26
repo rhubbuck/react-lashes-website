@@ -1,0 +1,12 @@
+.gallery-container {
+  padding: 10rem 5rem;
+}
+
+.gallery-page {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-card {
+  margin: 24px;
+}

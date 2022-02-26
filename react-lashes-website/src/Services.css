@@ -30,6 +30,9 @@
   color: #cc59d2;
   border: none;
   transition: all 0.2s;
+  padding: 6px;
+  border-radius: 4px;
+  text-decoration: none;
 }
 
 .book-button:hover {
@@ -52,7 +55,8 @@
 }
 
 .service-gallery-text {
-  margin-top: 4rem;
+  margin-top: 6rem;
+  font-size: 34px;
   color: #9046cf;
 }
 
