@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import RouteNav from './RouteNav';
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <div>
+      <RouteNav />
+    Gallery
+    </div>
   )
 }
 

@@ -35,7 +35,7 @@ const Navbar = () => {
             <Link className='nav-link' to="/gallery" >Gallery</Link>
             </Nav.Item>
             <Nav.Item>
-            <Nav.Link className='nav-link'>Schedule</Nav.Link>
+            <a className='nav-link' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">Schedule</a>
             </Nav.Item>
             <Nav.Item>
             <Link className='nav-link' to="/contact">Contact</Link>
