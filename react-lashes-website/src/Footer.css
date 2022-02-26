@@ -24,3 +24,27 @@
 .footer-link {
   color: inherit;
 }
+
+@media only screen and (max-width: 768px) {
+  .footer-link-wrapper {
+    margin: 0 5rem;
+  }
+
+  #social-wrapper {
+    margin: 0 9rem;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .footer-link-wrapper {
+    margin: 0 2rem;
+  }
+
+  #social-wrapper {
+    margin: 0 3rem;
+  }
+
+  p {
+    word-wrap: break-word;
+  }
+}

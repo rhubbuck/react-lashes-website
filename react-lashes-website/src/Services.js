@@ -36,15 +36,15 @@ const Services = () => {
                         {/* <CardImg className='card-image' variant="top" src={Lash}/> */}
                         <Card.Body>
                             <Card.Title>Classic Full Set <p className='card-time'>2 hours</p></Card.Title>
-                            <Card.Text style={{paddingBottom: '43px'}}>
+                            <Card.Text id='card-1' >
                             A classic lash set includes one lash extension per natural for a noticeable yet wearable look!
                             Appointment may last longer or shorter depending on the amount of natural lashes you have.
                             </Card.Text>
                             <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
                     </Card>
-                    </Col>
-                    <Col>
+                </Col>
+                <Col>
                     <Card className='service-card'>
                         {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>

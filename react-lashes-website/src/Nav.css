@@ -7,6 +7,8 @@
   transition-timing-function: ease-in;
   transition: all 0.3s;
   z-index: 2;
+  padding: 15px 90px 0;
+  background: transparent;
 }
 
 .logo {
@@ -14,7 +16,6 @@
 }
 
 .nav-color {
-  /* background-color: rgb(250, 216, 222); */
   background-color: #9046cf;
 }
 
@@ -24,16 +25,32 @@
   margin: 0;
 }
 
-nav {
-  padding: 15px 90px 0;
-  background: transparent;
-}
-
 .nav-link {
   color: #fff;
 }
 
 .nav-link:hover {
-  /* color: rgb(190, 190, 190); */
   color: #e5e9ec;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    padding: 15px 70px 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    padding: 1px 10px 0;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .navbar {
+    padding: 1px 10px 0;
+  }
+
+  .nav-link-box {
+    display: none;
+  }
 }

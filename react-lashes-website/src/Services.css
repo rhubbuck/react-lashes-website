@@ -100,3 +100,47 @@
 .info-pricing {
   margin: 160px 0 50px 0;
 }
+
+#card-1 {
+  padding-bottom: 43px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .services-lash-image {
+    width: 170px;
+  }
+
+  .services-wrapper {
+    margin: 3rem 6rem;
+  }
+
+  #card-1 {
+    padding-bottom: 71px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .services-lash-image {
+    width: 130px;
+  }
+
+  .service-card {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .services-wrapper {
+    margin: 3rem;
+  }
+
+  .services-lash-image {
+    width: 100px;
+  }
+
+  .service-images-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
