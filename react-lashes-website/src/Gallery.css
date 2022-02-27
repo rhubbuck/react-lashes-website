@@ -10,3 +10,19 @@
 .gallery-card {
   margin: 24px;
 }
+
+@media only screen and (max-width: 768px) {
+  .gallery-container {
+    padding: 6rem 4rem 2rem;
+  }
+
+  .gallery-card {
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .gallery-card {
+    margin: 14px;
+  }
+}

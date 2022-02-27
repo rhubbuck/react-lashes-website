@@ -1,7 +1,7 @@
 import React from 'react';
 import RouteNav from './RouteNav';
 import './Gallery.css';
-import { Container, Row, Col, Card, CardImg } from 'react-bootstrap';
+import { Container, Card, CardImg } from 'react-bootstrap';
 import Lash from './Images/lash-filler-pic.jpeg';
 
 const Gallery = () => {
@@ -9,57 +9,57 @@ const Gallery = () => {
     <div className='gallery-page'>
       <RouteNav />
       <Container className='gallery-container'>
-        <Row >
-          <Col>
+      <div className='row'>
+          <div className='col-md'>
             <Card className='gallery-card'>
                 <CardImg className='gallery-image' variant="top" src={Lash}/>
             </Card>
-          </Col>
-          <Col>
-            <Card className='gallery-card'>
-                <CardImg className='gallery-image' variant="top" src={Lash} />
-            </Card>
-          </Col>
-          <Col>
-            <Card className='gallery-card'>
-                <CardImg className='gallery-image' variant="top" src={Lash} />
-            </Card>
-          </Col>
-        </Row>
-        <Row >
-          <Col>
+          </div>
+          <div className='col-md'>
             <Card className='gallery-card'>
                 <CardImg className='gallery-image' variant="top" src={Lash}/>
             </Card>
-          </Col>
-          <Col>
-            <Card className='gallery-card'>
-                <CardImg className='gallery-image' variant="top" src={Lash} />
-            </Card>
-          </Col>
-          <Col>
-            <Card className='gallery-card'>
-                <CardImg className='gallery-image' variant="top" src={Lash} />
-            </Card>
-          </Col>
-        </Row>
-        <Row >
-          <Col>
+          </div>
+          <div className='col-md'>
             <Card className='gallery-card'>
                 <CardImg className='gallery-image' variant="top" src={Lash}/>
             </Card>
-          </Col>
-          <Col>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col-md'>
             <Card className='gallery-card'>
-                <CardImg className='gallery-image' variant="top" src={Lash} />
+                <CardImg className='gallery-image' variant="top" src={Lash}/>
             </Card>
-          </Col>
-          <Col>
+          </div>
+          <div className='col-md'>
             <Card className='gallery-card'>
-                <CardImg className='gallery-image' variant="top" src={Lash} />
+                <CardImg className='gallery-image' variant="top" src={Lash}/>
             </Card>
-          </Col>
-        </Row>
+          </div>
+          <div className='col-md'>
+            <Card className='gallery-card'>
+                <CardImg className='gallery-image' variant="top" src={Lash}/>
+            </Card>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col-md'>
+            <Card className='gallery-card'>
+                <CardImg className='gallery-image' variant="top" src={Lash}/>
+            </Card>
+          </div>
+          <div className='col-md'>
+            <Card className='gallery-card'>
+                <CardImg className='gallery-image' variant="top" src={Lash}/>
+            </Card>
+          </div>
+          <div className='col-md'>
+            <Card className='gallery-card'>
+                <CardImg className='gallery-image' variant="top" src={Lash}/>
+            </Card>
+          </div>
+        </div>
       </Container>
     </div>
   )

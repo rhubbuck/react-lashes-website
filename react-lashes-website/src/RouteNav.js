@@ -11,7 +11,7 @@ const RouteNav = () => {
             <div class="router-container-fluid">
                 <img src={Logo} alt='logo' className='logo'/>
             </div>
-            <Nav className="justify-content-end" activeKey="/home">
+            <Nav className="justify-content-end nav-link-box" activeKey="/home">
                 <Nav.Item>
                 <Link className='nav-link' to="/">Home</Link>
                 </Nav.Item>

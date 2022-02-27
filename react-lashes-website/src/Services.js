@@ -1,7 +1,7 @@
 import React from 'react';
 import './Services.css';
 import { Container} from 'react-bootstrap';
-import { Card, Button, Row, Col } from 'react-bootstrap';
+import { Card, Button, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Lash from './Images/lash-filler-pic.jpeg';
 import Arrow from './Images/arrow-right.svg';
@@ -30,8 +30,8 @@ const Services = () => {
         </div>
         <h1 className='info-pricing'>Info and Pricing</h1>
         <Container className='services-grid'>
-            <Row style={{margin: '15px'}}>
-                <Col>
+            <div className='row'>
+                <div className='col-md'>
                     <Card className='service-card'>
                         {/* <CardImg className='card-image' variant="top" src={Lash}/> */}
                         <Card.Body>
@@ -43,8 +43,8 @@ const Services = () => {
                             <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
                     </Card>
-                </Col>
-                <Col>
+                </div>
+                <div className='col-md'>
                     <Card className='service-card'>
                         {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
@@ -57,10 +57,10 @@ const Services = () => {
                             <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
                     </Card>
-                </Col>
-            </Row>
-            <Row style={{margin: '15px'}}>
-                <Col>
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col-md'>
                     <Card className='service-card'>
                         {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
@@ -72,8 +72,8 @@ const Services = () => {
                             <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
                     </Card>
-                    </Col>
-                    <Col>
+                </div>
+                <div className='col-md'>
                     <Card className='service-card'>
                         {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
@@ -85,10 +85,10 @@ const Services = () => {
                             <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
                     </Card>
-                </Col>
-            </Row>
-            <Row style={{margin: '15px'}}>
-                <Col>
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col-md'>
                     <Card className='service-card'>
                         {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
@@ -100,8 +100,8 @@ const Services = () => {
                             <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
                     </Card>
-                </Col>
-                <Col>
+                </div>
+                <div className='col-md'>
                     <Card className='service-card'>
                         {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
@@ -113,10 +113,10 @@ const Services = () => {
                             <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
                     </Card>
-                </Col>
-            </Row>
-            <Row style={{margin: '15px'}}>
-                <Col sm={6}>
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col-md'>
                     <Card className='service-card'>
                         {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
@@ -128,8 +128,8 @@ const Services = () => {
                             <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
                     </Card>
-                </Col>
-                <Col>
+                </div>
+                <div className='col-md'>
                     <Card className='service-card' id='gallery-card'>
                         <h3 className='service-gallery-text'>View my gallery!</h3>
                         <Button className='service-arrow-button'>
@@ -138,8 +138,8 @@ const Services = () => {
                             </Link>
                         </Button>
                     </Card>
-                </Col>
-            </Row>
+                </div>
+            </div>
         </Container>
     </div>
   )

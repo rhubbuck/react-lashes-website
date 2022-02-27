@@ -34,6 +34,21 @@ nav {
 }
 
 .nav-link:hover {
-  /* color: rgb(190, 190, 190); */
   color: #e5e9ec;
+}
+
+@media only screen and (max-width: 768px) {
+  .router-navbar {
+    padding: 1px 10px 0;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .router-navbar {
+    padding: 1px 10px 0;
+  }
+
+  .nav-link-box {
+    display: none;
+  }
 }

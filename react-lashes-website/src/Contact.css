@@ -72,3 +72,46 @@
   min-height: 115px;
   width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+  .contact-container {
+    margin: 105px auto;
+    width: 55%;
+  }
+
+  .contact-textarea {
+    margin-bottom: 26px;
+    min-height: 65px;
+  }
+
+  .contact-input {
+    margin-bottom: 26px;
+  }
+
+  .contact-form {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .contact-container {
+    width: 75%;
+  }
+
+  .contact-header {
+    font-size: 36px;
+  }
+
+  .contact-subheader {
+    font-size: 24px;
+  }
+
+  .contact-textarea {
+    margin-bottom: 16px;
+    min-height: 55px;
+  }
+
+  .contact-input {
+    margin-bottom: 16px;
+  }
+}
