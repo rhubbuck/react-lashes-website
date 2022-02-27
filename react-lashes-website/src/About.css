@@ -1,23 +1,34 @@
 .about-container {
-  background-color: rgba(255, 255, 255, 0.9);
-  margin-top: -70px;
+  background-color: rgba(255, 255, 255, 1);
+  width: 71%;
+  margin-top: -60px;
+  margin-bottom: -150px;
   padding-bottom: 20px;
-  border-radius: 2rem;
-  border: 2px solid purple;
+  border-radius: 0.4rem;
+  border: 2px solid rgba(50, 17, 71, 1);
+  z-index: 2;
+  position: relative;
 }
 
 .about-content {
   padding-top: 100px;
   padding-bottom: 100px;
+  width: 100%;
+  z-index: 2;
 }
 
 .about-title {
-  font-size: 44px;
+  margin: 0 0 1rem 5rem;
+  text-align: left;
+  font-weight: 400;
 }
 
 .about-profile-picture {
-  width: 230px;
-  border-radius: 0.5rem;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 1px solid rgba(50, 17, 71, 1);
+  padding: 4px;
   margin: 0 20px;
 }
 
@@ -26,10 +37,15 @@
   flex-direction: row;
   justify-content: center;
   margin-top: 100px;
+  width: 100%;
 }
 
 .about-text {
-  width: 50%;
-  margin: 0 20px;
+  width: 80%;
   text-align: left;
+  margin-top: 1rem;
+}
+
+.about-text-container {
+  margin-left: 2rem;
 }

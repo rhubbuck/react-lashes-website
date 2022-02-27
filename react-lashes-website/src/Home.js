@@ -5,6 +5,7 @@ import About from './About';
 import Footer from './Footer';
 import Services from './Services';
 import Contact from './Contact';
+import Background from './Background';
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
         <Navbar />
         <Hero />
         <About />
+        <Background />
         <Services />
     </div>
   )

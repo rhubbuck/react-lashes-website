@@ -1,28 +1,31 @@
 .navbar {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
   position: fixed;
   color: #fff;
   width: 100%;
   transition-timing-function: ease-in;
   transition: all 0.3s;
-  z-index: 2;
+  z-index: 4;
   padding: 15px 90px 0;
   background: transparent;
+  height: 80px;
 }
 
 .logo {
-  width: 90px;
+  width: 70px;
 }
 
 .nav-color {
-  background-color: #9046cf;
+  background-color: rgba(50, 17, 71, 1);
 }
 
 .container-fluid {
   width: 50%;
   padding: 0;
   margin: 0;
+  height: 60px;
 }
 
 .nav-link {

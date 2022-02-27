@@ -1,11 +1,17 @@
 .App {
   text-align: center;
+  background-color: rgb(241, 241, 241);
+  font-family: "Open Sans", sans-serif;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

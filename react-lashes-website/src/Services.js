@@ -9,7 +9,7 @@ import Arrow from './Images/arrow-right.svg';
 const Services = () => {
   return (
     <div className='services-wrapper'>
-        <h1 className='services-title'>My Eyelash Extensions</h1>
+        {/* <h1 className='services-title'>My Eyelash Extensions</h1>
         <div className='service-images-wrapper'>
             <div className='services-type'>
                 <img className='services-lash-image' src={Lash} alt='lashes'/>
@@ -27,16 +27,16 @@ const Services = () => {
                 <img className='services-lash-image' src={Lash} alt='lashes'/>
                 <h3>Hybrid</h3>
             </div>
-        </div>
+        </div> */}
         <h1 className='info-pricing'>Info and Pricing</h1>
         <Container className='services-grid'>
             <div className='row'>
                 <div className='col-md'>
-                    <Card className='service-card'>
+                    <Card className='service-card' id='card-1'>
                         {/* <CardImg className='card-image' variant="top" src={Lash}/> */}
                         <Card.Body>
                             <Card.Title>Classic Full Set <p className='card-time'>2 hours</p></Card.Title>
-                            <Card.Text id='card-1' >
+                            <Card.Text id='card-1-text' >
                             A classic lash set includes one lash extension per natural for a noticeable yet wearable look!
                             Appointment may last longer or shorter depending on the amount of natural lashes you have.
                             </Card.Text>
@@ -45,7 +45,7 @@ const Services = () => {
                     </Card>
                 </div>
                 <div className='col-md'>
-                    <Card className='service-card'>
+                    <Card className='service-card' id='card-2'>
                         {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Volume Full Set <p className='card-time'>2 hours 40 min.</p></Card.Title>
@@ -61,7 +61,7 @@ const Services = () => {
             </div>
             <div className='row'>
                 <div className='col-md'>
-                    <Card className='service-card'>
+                    <Card className='service-card' id='card-3'>
                         {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Mega Volume Full Set <p className='card-time'>2 hours 30 min.</p></Card.Title>
@@ -74,13 +74,13 @@ const Services = () => {
                     </Card>
                 </div>
                 <div className='col-md'>
-                    <Card className='service-card'>
+                    <Card className='service-card' id='card-4'>
                         {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Luxury classics <p className='card-time'>2 hours</p></Card.Title>
                             <Card.Text>
                             i dont have the text yet aksjdkl fajkd sjfk asjk fjas kjfd kas jdfk
-                            ljaksd asjdfk ljas fd jfdskj asdlkjasdlkj sadklj fd dsaf 
+                            ljaksd asjdfk ljas fd jfdskj asdlkjasdlkj sadklj 
                             </Card.Text>
                             <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
@@ -89,7 +89,7 @@ const Services = () => {
             </div>
             <div className='row'>
                 <div className='col-md'>
-                    <Card className='service-card'>
+                    <Card className='service-card' id='card-5'>
                         {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Hybrid Lashes <p className='card-time'>2 hours</p></Card.Title>
@@ -102,7 +102,7 @@ const Services = () => {
                     </Card>
                 </div>
                 <div className='col-md'>
-                    <Card className='service-card'>
+                    <Card className='service-card' id='card-6'>
                         {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Classic Fill In<p className='card-time'>1 hour 30 min.</p></Card.Title>
@@ -117,7 +117,7 @@ const Services = () => {
             </div>
             <div className='row'>
                 <div className='col-md'>
-                    <Card className='service-card'>
+                    <Card className='service-card' id='card-7'>
                         {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Hybrid Fill In<p className='card-time'>1 hour 5 min.</p></Card.Title>
