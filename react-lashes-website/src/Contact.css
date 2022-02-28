@@ -1,11 +1,18 @@
 .contact-wrapper {
   display: flex;
   flex-direction: column;
+  background-image: url("./Images/salon-background.jpg");
+  background-size: cover;
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .contact-container {
-  margin: 7rem 12rem;
-  background-color: #fff;
+  margin: 7rem 24rem;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 0.5rem;
 }
 
 .contact-form {
@@ -13,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 36px;
-  padding: 4rem 11rem;
+  padding: 2rem 10rem;
 }
 
 .contact-header {
@@ -40,7 +47,7 @@
 }
 
 .contact-label {
-  color: #adadad;
+  color: #353535;
   align-self: flex-start;
 }
 

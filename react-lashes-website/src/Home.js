@@ -6,6 +6,7 @@ import Footer from './Footer';
 import Services from './Services';
 import Contact from './Contact';
 import Background from './Background';
+import BackgroundTwo from './BackgroundTwo';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
         <About />
         <Background />
         <Services />
+        <BackgroundTwo />
     </div>
   )
 }

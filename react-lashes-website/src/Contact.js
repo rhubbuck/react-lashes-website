@@ -21,19 +21,21 @@ const Contact = () => {
 
   return (
     <div className='contact-wrapper'>
-      <RouteNav />
-        <div className='contact-container'>
-        <h1 className='contact-header'>(123) 123-1234</h1>
-        <h2 className='contact-subheader'>Have a question? Contact me here!</h2>
-         <form ref={form} onSubmit={sendEmail} className="contact-form">
-            <label className='contact-label'>Name</label>
-            <input type="text" name="name" required className='contact-input' />
-            <label className='contact-label'>Email</label>
-            <input type="email" name="email" required className='contact-input' />
-            <label className='contact-label'>Message</label>
-            <textarea name="message" required className='contact-textarea' />
-            <input type="submit" value="SEND" className='contact-submit' />
-        </form>
+      <div className='layer'>
+        <RouteNav />
+          <div className='contact-container'>
+            <h1 className='contact-header'>(123) 123-1234</h1>
+            <h2 className='contact-subheader'>Have a question? Contact me here!</h2>
+            <form ref={form} onSubmit={sendEmail} className="contact-form">
+                <label className='contact-label'>Name</label>
+                <input type="text" name="name" required className='contact-input' />
+                <label className='contact-label'>Email</label>
+                <input type="email" name="email" required className='contact-input' />
+                <label className='contact-label'>Message</label>
+                <textarea name="message" required className='contact-textarea' />
+                <input type="submit" value="SEND" className='contact-submit' />
+            </form>
+          </div>
         </div>
     </div>
   )
