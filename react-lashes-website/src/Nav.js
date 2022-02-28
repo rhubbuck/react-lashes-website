@@ -3,10 +3,18 @@ import './Nav.css';
 import { Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
 import Logo from './Images/logo-andrea.png';
+import Menu from './Images/list.svg';
+import Chevron from './Images/chevron-right.svg';
 
 const Navbar = () => {
 
   const [show, handleShow] = useState(false);
+
+  const [showMenu, handleShowMenu] = useState(false);
+
+  const changeMenu = () => {
+      handleShowMenu(prevState => !prevState);
+  }
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -38,6 +46,18 @@ const Navbar = () => {
             <Link className='nav-link' to="/contact">Contact</Link>
             </Nav.Item>
         </Nav>
+        <img src={Menu} alt='Menu' className='menu-icon' onClick={changeMenu}/>
+        { showMenu &&
+        <div className='mobile-menu'>
+            <img src={Chevron} alt='close menu icon' className='mobile-close-icon' onClick={changeMenu}/>
+            <ul className='mobile-menu-links'>
+                <Link className='mobile-link' onClick={changeMenu} to='/'>Home</Link>
+                <Link className='mobile-link' onClick={changeMenu} to='/gallery'>Gallery</Link>
+                <a className='mobile-link' onClick={changeMenu} target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">Schedule</a>
+                <Link className='mobile-link' onClick={changeMenu} to='/contact'>Contact</Link>
+            </ul>
+        </div>
+        }
     </nav>
   )
 }
