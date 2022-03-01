@@ -1,12 +1,35 @@
 .background-two-container {
-  background-image: url("./Images/background.jpg");
-  height: 50vh;
-  margin-bottom: -55px;
+  background-image: url("./Images/scarf.jpg");
+  height: 55vh;
   margin-left: 8rem;
   margin-right: 8rem;
   z-index: 1;
-  background-position: center;
+  background-position-x: center;
+  background-position-y: 15%;
+  background-size: cover;
   background-attachment: fixed;
   position: sticky;
   overflow: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+  .background-two-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .background-two-container {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .background-two-container {
+    display: none;
+  }
 }

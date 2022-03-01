@@ -1,11 +1,11 @@
 import React from 'react';
 import './About.css';
 import { Container } from 'react-bootstrap';
-import Ali from './Images/pexels-ali-pazani.jpg';
+import Ali from './Images/pexels-george.jpg';
 
 const About = () => {
   return (
-      <Container className='about-container'> 
+      <div className='about-container'> 
         <div className='about-content'>
            <h1 className='about-title'>About Me</h1>
            <div className='about-inner-content'>
@@ -17,7 +17,7 @@ const About = () => {
               </div>
            </div>
         </div>
-      </Container>
+      </div>
   )
 }
 

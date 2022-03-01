@@ -9,7 +9,7 @@ import Arrow from './Images/arrow-right.svg';
 const Services = () => {
   return (
     <div className='services-wrapper'>
-        {/* <h1 className='services-title'>My Eyelash Extensions</h1>
+        <h1 className='services-title'>My Eyelash Extensions</h1>
         <div className='service-images-wrapper'>
             <div className='services-type'>
                 <img className='services-lash-image' src={Lash} alt='lashes'/>
@@ -21,13 +21,9 @@ const Services = () => {
             </div>
             <div className='services-type'>
                 <img className='services-lash-image' src={Lash} alt='lashes'/>
-                <h3>Luxury</h3>
-            </div>
-            <div className='services-type'>
-                <img className='services-lash-image' src={Lash} alt='lashes'/>
                 <h3>Hybrid</h3>
             </div>
-        </div> */}
+        </div>
         <h1 className='info-pricing'>Info and Pricing</h1>
         <Container className='services-grid'>
             <div className='row'>
@@ -131,7 +127,7 @@ const Services = () => {
                 </div>
                 <div className='col-md'>
                     <Card className='service-card' id='gallery-card'>
-                        <h3 className='service-gallery-text'>View my gallery!</h3>
+                        <h3 className='service-gallery-text'>View my work!</h3>
                         <Button className='service-arrow-button'>
                             <Link to='/gallery'>
                                 <img src={Arrow} alt='arrow button' style={{width: '44px'}}/>

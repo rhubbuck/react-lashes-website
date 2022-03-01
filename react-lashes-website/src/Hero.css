@@ -41,22 +41,22 @@
 
 @media only screen and (max-width: 768px) {
   .hero-content {
-    padding-top: 11rem;
+    padding-top: 18rem;
     padding-left: 5rem;
   }
 
   .hero-title {
-    font-size: 64px;
+    font-size: 68px;
   }
 }
 
 @media only screen and (max-width: 426px) {
   .hero-content {
-    padding-top: 13rem;
+    padding-top: 16rem;
     padding-left: 2rem;
   }
 
   .hero-title {
-    font-size: 44px;
+    font-size: 54px;
   }
 }

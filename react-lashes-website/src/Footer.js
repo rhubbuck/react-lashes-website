@@ -19,16 +19,15 @@ const Footer = () => {
     <div className="me-5 d-none d-lg-block">
       <span>Get connected with me on social networks:</span>
     </div>
-    <div>
-      <a href="#top" class="me-4 text-reset">
-        
+    <div className='social-icons'>
+      <a href="#top" class=" text-reset" className='social-icon'>
         <img id='facebook' src={facebook} alt="facebook"/>
       </a>
-      <a href="top" class="me-4 text-reset">
-      <img id='instagram' src={instagram} alt="instagram"/>
+      <a href="top" class=" text-reset" className='social-icon'>
+        <img id='instagram' src={instagram} alt="instagram"/>
       </a>
-      <a href="top" class="me-4 text-reset">
-      <img id='twitter' src={twitter} alt="twitter"/>
+      <a href="top" class=" text-reset" className='social-icon'>
+        <img id='twitter' src={twitter} alt="twitter"/>
       </a>
     </div>
     
@@ -58,13 +57,10 @@ const Footer = () => {
           <h6 class="text-uppercase fw-bold mb-4">
             Contact
           </h6>
-          <p><i class="fas fa-home me-3"></i> 222 road Gadsden, AL 11111</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            andreaflores1510@gmail.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i>(222)222-2222</p>
-          <p><i class="fas fa-print me-3"></i>Hours: </p>
+          <p className='footer-text'> 222 road Gadsden, AL 11111</p>
+          <p className='footer-text'>andreaflores1510@gmail.com</p>
+          <p className='footer-text'>(222)222-2222</p>
+          <p className='footer-text'>Hours: </p>
         </div>
        
       </div>

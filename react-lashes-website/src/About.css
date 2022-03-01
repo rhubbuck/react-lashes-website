@@ -1,24 +1,21 @@
 .about-container {
-  background-color: rgba(255, 255, 255, 1);
-  width: 71%;
-  margin-top: -60px;
-  margin-bottom: -150px;
+  margin: -110px 14rem -80px;
+  padding-top: 0;
+  background-color: #fff;
   padding-bottom: 20px;
   border-radius: 0.4rem;
   border: 2px solid rgba(50, 17, 71, 1);
-  z-index: 2;
   position: relative;
+  z-index: 2;
 }
 
 .about-content {
-  padding-top: 100px;
-  padding-bottom: 100px;
   width: 100%;
   z-index: 2;
 }
 
 .about-title {
-  margin: 0 0 1rem 5rem;
+  margin: 7rem 0 3rem 5rem;
   text-align: left;
   font-weight: 400;
 }
@@ -36,7 +33,6 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 100px;
   width: 100%;
 }
 
@@ -48,4 +44,37 @@
 
 .about-text-container {
   margin-left: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-container {
+    margin: -60px 6rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-inner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-container {
+    margin: -50px 2rem -150px;
+  }
+
+  .about-title {
+    margin: 4rem 0 2rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .about-container {
+    margin: -50px 2rem -150px;
+  }
+
+  .about-profile-picture {
+    height: 160px;
+    width: 160px;
+  }
 }

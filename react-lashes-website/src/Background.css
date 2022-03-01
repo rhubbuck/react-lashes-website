@@ -10,3 +10,20 @@
   position: sticky;
   overflow: hidden;
 }
+
+@media only screen and (max-width: 1024px) {
+  .background-container {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .background-container {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+}

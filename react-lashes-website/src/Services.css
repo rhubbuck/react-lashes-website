@@ -1,5 +1,5 @@
 .services-wrapper {
-  margin: -150px 14rem -250px;
+  margin: -100px 14rem -180px;
   padding-top: 0;
   background-color: #fff;
   padding-bottom: 20px;
@@ -150,16 +150,14 @@
   justify-content: center;
 }
 
+.info-pricing,
 .services-title {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  text-align: left;
-  margin-left: 5rem;
-}
-
-.info-pricing {
   margin: 7rem 0 3rem 5rem;
   text-align: left;
+  font-weight: 400;
+}
+
+h3 {
   font-weight: 400;
 }
 
@@ -173,7 +171,7 @@
   }
 
   .services-wrapper {
-    margin: 3rem 6rem;
+    margin: -70px 6rem -40px;
   }
 
   .card-text {
@@ -186,8 +184,17 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .info-pricing,
+  .services-title {
+    margin: 4rem 0 2rem 3rem;
+  }
+
   .services-lash-image {
-    width: 130px;
+    width: 140px;
+  }
+
+  .service-images-wrapper {
+    margin: 30px 0;
   }
 
   .service-card {
@@ -196,11 +203,12 @@
   }
 
   #card-1-text {
-    padding-bottom: 56px;
+    padding-bottom: 58px;
   }
 
   .services-wrapper {
     margin: 2rem;
+    margin-bottom: -70px;
   }
 
   .card-text {
@@ -211,7 +219,7 @@
   }
 
   .service-card {
-    min-height: 300px;
+    min-height: 326px;
   }
 }
 
@@ -228,7 +236,7 @@
     margin: 2rem;
   }
   .services-lash-image {
-    width: 100px;
+    width: 146px;
   }
 
   .service-images-wrapper {
@@ -239,5 +247,16 @@
 
   #card-1 {
     padding-bottom: 1rem;
+  }
+
+  #card-1,
+  #card-2,
+  #card-3,
+  #card-4,
+  #card-5,
+  #card-6,
+  #card-7,
+  #gallery-card {
+    border: 1px solid #c0c0c0;
   }
 }

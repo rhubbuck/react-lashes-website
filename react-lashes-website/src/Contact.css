@@ -84,7 +84,7 @@
 @media only screen and (max-width: 768px) {
   .contact-container {
     margin: 105px auto;
-    width: 55%;
+    width: 65%;
   }
 
   .contact-textarea {
@@ -98,12 +98,17 @@
 
   .contact-form {
     margin-top: 1rem;
+    padding: 1rem 2.5rem;
   }
 }
 
 @media only screen and (max-width: 426px) {
   .contact-container {
-    width: 75%;
+    width: 85%;
+  }
+
+  .contact-form {
+    padding: 0.5rem;
   }
 
   .contact-header {
@@ -111,12 +116,12 @@
   }
 
   .contact-subheader {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .contact-textarea {
     margin-bottom: 16px;
-    min-height: 55px;
+    min-height: 62px;
   }
 
   .contact-input {
