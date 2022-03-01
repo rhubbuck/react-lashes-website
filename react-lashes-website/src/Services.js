@@ -2,10 +2,11 @@ import React from 'react';
 import './Services.css';
 import { Container} from 'react-bootstrap';
 import { Card, Button, Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link as RouterLink } from 'react-router-dom';
 import Lash from './Images/lash-filler-pic.jpeg';
 import Arrow from './Images/arrow-right.svg';
 import BackgroundTwo from './BackgroundTwo';
+import { Link, animateScroll } from 'react-scroll';
 
 const Services = () => {
   return (
@@ -14,7 +15,14 @@ const Services = () => {
     <div className='services-container'>
         <h1 className='services-title'>My Eyelash Extensions</h1>
         <div className='service-images-wrapper'>
-            <div className='services-type'>
+            <Link 
+            className='services-type'
+            activeClass="active"
+            to="card-1"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={300}>
                 {/* <img className='services-lash-image' src={Lash} alt='lashes'/> */}
                 <div className='service-lash-image-1'>
                     <div className='service-type-filter'>
@@ -22,21 +30,35 @@ const Services = () => {
                     </div>
                 </div>
                 {/* <h3>Classic</h3> */}
-            </div>
-            <div className='services-type'>
-            <div className='service-lash-image-2'>
-            <div className='service-type-filter'>
+            </Link>
+            <Link 
+            className='services-type'
+            activeClass="active"
+            to="card-2"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={300}>
+                <div className='service-lash-image-2'>
+                    <div className='service-type-filter'>
                         <p className='service-type-label'>Volume</p>
                     </div>
-            </div>
-            </div>
-            <div className='services-type'>
-            <div className='service-lash-image-3'>
-            <div className='service-type-filter'>
+                </div>
+            </Link>
+            <Link 
+            className='services-type'
+            activeClass="active"
+            to="card-5"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={300}>
+                <div className='service-lash-image-3'>
+                    <div className='service-type-filter'>
                         <p className='service-type-label'>Hybrid</p>
                     </div>
-            </div>
-            </div>
+                </div>
+            </Link>
         </div>
         </div>
         {/* <BackgroundTwo /> */}
@@ -146,9 +168,9 @@ const Services = () => {
                     <Card className='service-card' id='gallery-card'>
                         <h3 className='service-gallery-text'>View my work!</h3>
                         <Button className='service-arrow-button'>
-                            <Link to='/gallery'>
+                            <RouterLink to='/gallery'>
                                 <img src={Arrow} alt='arrow button' style={{width: '44px'}}/>
-                            </Link>
+                            </RouterLink>
                         </Button>
                     </Card>
                 </div>

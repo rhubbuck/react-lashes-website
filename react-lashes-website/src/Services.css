@@ -205,6 +205,8 @@
 
 .services-type {
   width: 100%;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .service-type-label {
