@@ -5,6 +5,16 @@
 .gallery-page {
   margin: 0;
   padding: 0;
+  background-color: #fff;
+}
+
+.gallery-title {
+  margin: 0 0 3rem 5rem;
+  text-align: left;
+  font-weight: 300;
+  font-size: 46px;
+  font-family: "Comfortaa", cursive;
+  color: rgb(58, 58, 58);
 }
 
 .gallery-card {

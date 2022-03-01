@@ -5,25 +5,42 @@ import { Card, Button, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Lash from './Images/lash-filler-pic.jpeg';
 import Arrow from './Images/arrow-right.svg';
+import BackgroundTwo from './BackgroundTwo';
 
 const Services = () => {
   return (
     <div className='services-wrapper'>
+    <div className='hero-cutout'></div>
+    <div className='services-container'>
         <h1 className='services-title'>My Eyelash Extensions</h1>
         <div className='service-images-wrapper'>
             <div className='services-type'>
-                <img className='services-lash-image' src={Lash} alt='lashes'/>
-                <h3>Classic</h3>
+                {/* <img className='services-lash-image' src={Lash} alt='lashes'/> */}
+                <div className='service-lash-image-1'>
+                    <div className='service-type-filter'>
+                        <p className='service-type-label'>Classic</p>
+                    </div>
+                </div>
+                {/* <h3>Classic</h3> */}
             </div>
             <div className='services-type'>
-                <img className='services-lash-image' src={Lash} alt='lashes'/>
-                <h3>Volume</h3>
+            <div className='service-lash-image-2'>
+            <div className='service-type-filter'>
+                        <p className='service-type-label'>Volume</p>
+                    </div>
+            </div>
             </div>
             <div className='services-type'>
-                <img className='services-lash-image' src={Lash} alt='lashes'/>
-                <h3>Hybrid</h3>
+            <div className='service-lash-image-3'>
+            <div className='service-type-filter'>
+                        <p className='service-type-label'>Hybrid</p>
+                    </div>
+            </div>
             </div>
         </div>
+        </div>
+        {/* <BackgroundTwo /> */}
+        <div className='info-container'>
         <h1 className='info-pricing'>Info and Pricing</h1>
         <Container className='services-grid'>
             <div className='row'>
@@ -138,6 +155,7 @@ const Services = () => {
             </div>
         </Container>
     </div>
+     </div>
   )
 }
 

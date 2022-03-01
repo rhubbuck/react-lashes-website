@@ -9,6 +9,7 @@ const Gallery = () => {
     <div className='gallery-page'>
       <RouteNav />
       <Container className='gallery-container'>
+      <h3 className='gallery-title'>Gallery</h3>
       <div className='row'>
           <div className='col-md'>
             <Card className='gallery-card'>

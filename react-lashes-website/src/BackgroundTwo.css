@@ -1,6 +1,6 @@
 .background-two-container {
   background-image: url("./Images/scarf.jpg");
-  height: 55vh;
+  height: 70vh;
   margin-left: 8rem;
   margin-right: 8rem;
   z-index: 1;
@@ -10,6 +10,8 @@
   background-attachment: fixed;
   position: sticky;
   overflow: hidden;
+  margin-top: -160px;
+  margin-bottom: -160px;
 }
 
 @media only screen and (max-width: 1024px) {
