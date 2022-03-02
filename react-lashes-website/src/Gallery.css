@@ -29,10 +29,18 @@
   .gallery-card {
     margin: 10px;
   }
+
+  .gallery-title {
+    margin: 0 0 3rem 2rem;
+  }
 }
 
 @media only screen and (max-width: 426px) {
   .gallery-card {
     margin: 14px;
+  }
+
+  .gallery-title {
+    margin-left: 0;
   }
 }
