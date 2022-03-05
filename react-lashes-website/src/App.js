@@ -14,14 +14,10 @@ function App() {
   return (
     <div className="App">
     <HashRouter>
-       {/* <Hero />
-       <About />
-       <Contact />
-       <Services /> */}
         <Routes>
-          <Route path='/' element={<Home/>} />
-          <Route exact path="/contact" element={<Contact/>} />
-          <Route exact path="/gallery" element={<Gallery/>}/>
+          <Route path='/react-lashes-website' element={<Home/>} />
+          <Route exact path="/react-lashes-website/contact" element={<Contact/>} />
+          <Route exact path="/react-lashes-website/gallery" element={<Gallery/>}/>
         </Routes>
        <Footer />
        </HashRouter>
