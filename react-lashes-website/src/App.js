@@ -8,12 +8,12 @@ import Services from './Services';
 import Contact from './Contact';
 import Home from './Home';
 import Gallery from './Gallery';
-import { Routes , Route, BrowserRouter as Router } from 'react-router-dom';
+import { Routes , Route, BrowserRouter as Router, HashRouter } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-    <Router>
+    <HashRouter>
        {/* <Hero />
        <About />
        <Contact />
@@ -24,7 +24,7 @@ function App() {
           <Route exact path="/gallery" element={<Gallery/>}/>
         </Routes>
        <Footer />
-       </Router>
+       </HashRouter>
     </div>
   );
 }
