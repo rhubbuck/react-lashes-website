@@ -8,17 +8,17 @@ import Services from './Services';
 import Contact from './Contact';
 import Home from './Home';
 import Gallery from './Gallery';
-import { Routes , Route, BrowserRouter as Router, HashRouter } from 'react-router-dom';
+import { Routes , Route, BrowserRouter as Router, HashRouter, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
     <HashRouter>
-        <Routes>
-          <Route path='/react-lashes-website' element={<Home/>} />
-          <Route exact path="/react-lashes-website/contact" element={<Contact/>} />
-          <Route exact path="/react-lashes-website/gallery" element={<Gallery/>}/>
-        </Routes>
+        <Switch>
+          <Route path='/' element={<Home/>} />
+          <Route exact path="/contact" element={<Contact/>} />
+          <Route exact path="/gallery" element={<Gallery/>}/>
+        </Switch>
        <Footer />
        </HashRouter>
     </div>
