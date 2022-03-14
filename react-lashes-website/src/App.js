@@ -8,17 +8,17 @@ import Services from './Services';
 import Contact from './Contact';
 import Home from './Home';
 import Gallery from './Gallery';
-import { Route, BrowserRouter as Router, HashRouter, Switch } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-    <Router basename='/react-lashes-website'>
-        <Switch>
+    <Router >
+        <Routes>
           <Route path={'/'} element={<Home/>} />
           <Route exact path={"/contact"} element={<Contact/>} />
           <Route exact path={"/gallery"} element={<Gallery/>}/>
-        </Switch>
+        </Routes>
        <Footer />
        </Router>
     </div>
