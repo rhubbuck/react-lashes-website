@@ -36,6 +36,10 @@
 }
 
 @media only screen and (max-width: 426px) {
+  .gallery-container {
+    padding: 6rem 1.5rem 2rem;
+  }
+
   .gallery-card {
     margin: 14px;
   }

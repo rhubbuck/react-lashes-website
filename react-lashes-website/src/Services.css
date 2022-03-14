@@ -316,20 +316,22 @@ h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 90vh;
+    height: 80vh;
   }
 
   .service-lash-image-1 {
-    background-position-y: -90px;
+    background-position-y: -170px;
     background-size: cover;
   }
 
   .service-lash-image-2 {
-    background-position-y: -220px;
+    background-position-y: -90px;
+    background-size: cover;
   }
 
   .service-lash-image-3 {
-    background-position-y: -160px;
+    background-position-y: -60px;
+    background-size: cover;
   }
 
   #card-1 {
