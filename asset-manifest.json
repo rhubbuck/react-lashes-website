@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-lashes-website/static/css/main.4b034d6d.css",
-    "main.js": "/react-lashes-website/static/js/main.9f192fab.js",
+    "main.js": "/react-lashes-website/static/js/main.7c53d92f.js",
     "static/js/787.611daf15.chunk.js": "/react-lashes-website/static/js/787.611daf15.chunk.js",
     "static/media/scarf.jpg": "/react-lashes-website/static/media/scarf.f5250c282cc35712b390.jpg",
     "static/media/lash-filler-pic.jpeg": "/react-lashes-website/static/media/lash-filler-pic.1c931b0d7fe8d12f5349.jpeg",
@@ -36,11 +36,11 @@
     "static/media/arrow-right.svg": "/react-lashes-website/static/media/arrow-right.bb33eb7c8f62e928a2e9fe53628ecbc4.svg",
     "static/media/chevron-right.svg": "/react-lashes-website/static/media/chevron-right.da618c3767dcb043c2355847571fcfcd.svg",
     "main.4b034d6d.css.map": "/react-lashes-website/static/css/main.4b034d6d.css.map",
-    "main.9f192fab.js.map": "/react-lashes-website/static/js/main.9f192fab.js.map",
+    "main.7c53d92f.js.map": "/react-lashes-website/static/js/main.7c53d92f.js.map",
     "787.611daf15.chunk.js.map": "/react-lashes-website/static/js/787.611daf15.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b034d6d.css",
-    "static/js/main.9f192fab.js"
+    "static/js/main.7c53d92f.js"
   ]
 }
