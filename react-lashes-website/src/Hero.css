@@ -50,7 +50,7 @@
   }
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 460px) {
   .hero-content {
     padding-top: 6rem;
     padding-left: 1rem;
@@ -58,5 +58,9 @@
 
   .hero-title {
     font-size: 58px;
+  }
+
+  .hero-background {
+    background-attachment: scroll;
   }
 }
