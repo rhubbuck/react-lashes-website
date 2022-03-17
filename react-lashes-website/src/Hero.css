@@ -18,6 +18,22 @@
   font-family: "Comfortaa", cursive;
 }
 
+.hero-mobile-title {
+  display: none;
+}
+
+.hero-subtext {
+  font-size: 44px;
+  font-weight: 300;
+  color: #ffffff;
+  font-family: "Comfortaa", cursive;
+}
+
+.hero-subtext-container {
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
 .hero-link {
   cursor: pointer;
   border: none;
@@ -48,6 +64,14 @@
   .hero-title {
     font-size: 68px;
   }
+
+  .hero-subtext {
+    font-size: 34px;
+  }
+
+  .hero-subtext-container {
+    margin-top: 2rem;
+  }
 }
 
 @media only screen and (max-width: 460px) {
@@ -57,10 +81,36 @@
   }
 
   .hero-title {
-    font-size: 58px;
+    display: none;
+  }
+
+  .hero-mobile-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5rem;
+  }
+
+  .hero-mobile-text {
+    font-size: 60px;
+    font-family: "Comfortaa", cursive;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
   }
 
   .hero-background {
     background-attachment: scroll;
+  }
+
+  .hero-subtext {
+    font-size: 22px;
+  }
+
+  .hero-subtext-container {
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  .hero-background {
+    height: 80vh;
   }
 }

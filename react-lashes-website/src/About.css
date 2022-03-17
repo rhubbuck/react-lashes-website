@@ -1,7 +1,7 @@
 .about-container {
-  padding-top: 0;
+  padding: 0 0 3rem 0;
   background-color: #fff;
-  padding-bottom: 3rem;
+  margin: 0;
 }
 
 .about-content {
@@ -75,7 +75,6 @@
 
 @media only screen and (max-width: 426px) {
   .about-container {
-    margin: 1rem;
     padding-bottom: 0;
   }
 
@@ -91,7 +90,7 @@
   }
 
   .about-title {
-    font-size: 30px;
-    margin: 2rem 0 2rem 1rem;
+    font-size: 28px;
+    margin: 6rem 0 2rem 1rem;
   }
 }

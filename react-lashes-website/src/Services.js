@@ -18,6 +18,7 @@ const Services = () => {
 </div>
     <div className='hero-cutout'></div>
     <div className='services-container'>
+        <p className='intro-text'> Discover how individual eyelash extensions can enhance your beauty and confidence</p>
         <h1 className='services-title'>My Eyelash Extensions</h1>
         <div className='service-images-wrapper'>
             <Link 
@@ -119,8 +120,8 @@ const Services = () => {
                         <Card.Body>
                             <Card.Title>Luxury classics <p className='card-time'>2 hours</p></Card.Title>
                             <Card.Text>
-                            i dont have the text yet aksjdkl fajkd sjfk asjk fjas kjfd kas jdfk
-                            ljaksd asjdfk ljas fd jfdskj asdlkjasdlkj sadklj 
+                            This is a fuller version of classic lashes.
+                            Luxury classics give a fuller look, but still keep everything natural looking. 
                             </Card.Text>
                             <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
@@ -162,8 +163,8 @@ const Services = () => {
                         <Card.Body>
                             <Card.Title>Hybrid Fill In<p className='card-time'>1 hour 5 min.</p></Card.Title>
                             <Card.Text>
-                            I dont have the text yet so ... ksdjakj fdska jfd kfad js
-                            kasdjk ask asdfk asfkj safdkj klasdfj ksafdj kasfdjkasfj kfasj ksfd k
+                            Book this for your 2-3 week hybrid fill! If it has been more than 3 weeks
+                            since your last classic set/ last fill, please book a full set.
                             </Card.Text>
                             <a className='book-button' target='_blank' href='https://lashesbyandreaa.as.me/' rel="noreferrer">BOOK NOW</a>
                         </Card.Body>
