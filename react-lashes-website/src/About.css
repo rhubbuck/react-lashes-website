@@ -17,6 +17,7 @@
   font-size: 46px;
   font-family: "Comfortaa", cursive;
   color: rgb(58, 58, 58);
+  letter-spacing: 2px;
 }
 
 .about-profile-picture {
@@ -73,7 +74,7 @@
   }
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 460px) {
   .about-container {
     padding-bottom: 0;
   }

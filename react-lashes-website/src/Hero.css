@@ -16,6 +16,8 @@
 .hero-title {
   font-size: 84px;
   font-family: "Comfortaa", cursive;
+  letter-spacing: 3px;
+  margin-bottom: 1.5rem;
 }
 
 .hero-mobile-title {
@@ -76,7 +78,7 @@
 
 @media only screen and (max-width: 460px) {
   .hero-content {
-    padding-top: 6rem;
+    padding-top: 1rem;
     padding-left: 1rem;
   }
 
@@ -87,11 +89,12 @@
   .hero-mobile-title {
     display: flex;
     flex-direction: column;
-    margin-top: 3.5rem;
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
   }
 
   .hero-mobile-text {
-    font-size: 60px;
+    font-size: 54px;
     font-family: "Comfortaa", cursive;
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
@@ -99,18 +102,15 @@
 
   .hero-background {
     background-attachment: scroll;
+    height: 60vh;
   }
 
   .hero-subtext {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .hero-subtext-container {
     margin-left: 1rem;
-    margin-top: 1rem;
-  }
-
-  .hero-background {
-    height: 80vh;
+    margin-top: 1.5rem;
   }
 }

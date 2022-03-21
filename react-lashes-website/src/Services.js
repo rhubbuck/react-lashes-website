@@ -18,8 +18,8 @@ const Services = () => {
 </div>
     <div className='hero-cutout'></div>
     <div className='services-container'>
-        <p className='intro-text'> Discover how individual eyelash extensions can enhance your beauty and confidence</p>
-        <h1 className='services-title'>My Eyelash Extensions</h1>
+        <p className='intro-text'> SAY <em>YES</em> TO LASH EXTENSIONS WITH QUALITY YOU CAN TRUST!</p>
+        <h1 className='services-title'>My Services</h1>
         <div className='service-images-wrapper'>
             <Link 
             className='services-type'

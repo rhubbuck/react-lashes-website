@@ -8,9 +8,17 @@
 .intro-text {
   font-size: 32px;
   font-weight: 300;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(50, 17, 71, 1);
+  border-top: 1px solid rgba(50, 17, 71, 1);
   margin: 8rem 8rem 10rem;
   padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  letter-spacing: 3px;
+}
+
+em {
+  font-weight: 400;
+  letter-spacing: 3px;
 }
 
 .card-image {
@@ -217,6 +225,7 @@
   font-size: 46px;
   font-family: "Comfortaa", cursive;
   color: rgb(58, 58, 58);
+  letter-spacing: 2px;
 }
 
 .info-pricing {
@@ -307,7 +316,7 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 460px) {
   .services-container {
     margin-top: 4rem;
   }
@@ -316,7 +325,7 @@ h3 {
     font-size: 18px;
     font-weight: 300;
     border-bottom: 1px solid black;
-    margin: 5rem 1rem 7rem;
+    margin: 3.5rem 1rem 7rem;
     padding-bottom: 0.5rem;
   }
 
@@ -363,15 +372,16 @@ h3 {
   #card-7,
   #gallery-card {
     border: 1px solid #c0c0c0;
+    margin: 5px 0;
   }
 
   .custom-shape-divider-top-1646243444 svg {
-    height: 50px;
+    height: 0;
   }
 
   .info-pricing,
   .services-title {
     font-size: 28px;
-    margin: 4rem 0 3rem 1rem;
+    margin: 6rem 0 3rem 1rem;
   }
 }
