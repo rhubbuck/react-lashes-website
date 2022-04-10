@@ -1,8 +1,6 @@
 import React from 'react';
 import './Footer.css';
 import facebook from './Images/facebook.svg';
-import instagram from './Images/instagram.svg';
-import twitter from './Images/twitter.svg';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -20,14 +18,8 @@ const Footer = () => {
       <span>Get connected with me on social networks:</span>
     </div>
     <div className='social-icons'>
-      <a href="#top" class=" text-reset" className='social-icon'>
+      <a href="https://www.facebook.com/Lashes-By-Andrea-103765671589665" class=" text-reset" className='social-icon'>
         <img id='facebook' src={facebook} alt="facebook"/>
-      </a>
-      <a href="top" class=" text-reset" className='social-icon'>
-        <img id='instagram' src={instagram} alt="instagram"/>
-      </a>
-      <a href="top" class=" text-reset" className='social-icon'>
-        <img id='twitter' src={twitter} alt="twitter"/>
       </a>
     </div>
     
@@ -57,10 +49,9 @@ const Footer = () => {
           <h6 class="text-uppercase fw-bold mb-4">
             Contact
           </h6>
-          <p className='footer-text'> 222 road Gadsden, AL 11111</p>
-          <p className='footer-text'>andreaflores1510@gmail.com</p>
-          <p className='footer-text'>(222)222-2222</p>
-          <p className='footer-text'>Hours: </p>
+          <p className='footer-text'><a className='email-to' href = "mailto: abc@example.com">Andreaflores1510@gmail.com</a></p>
+          <p className='footer-text'>(256) 393-0212</p>
+          <p className='footer-text'>Mon - Sat; 10AM - 5PM</p>
         </div>
        
       </div>
