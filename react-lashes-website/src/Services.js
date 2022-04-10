@@ -3,9 +3,7 @@ import './Services.css';
 import { Container} from 'react-bootstrap';
 import { Card, Button, Row } from 'react-bootstrap';
 import { Link as RouterLink } from 'react-router-dom';
-import Lash from './Images/lash-filler-pic.jpeg';
 import Arrow from './Images/arrow-right.svg';
-import BackgroundTwo from './BackgroundTwo';
 import { Link, animateScroll } from 'react-scroll';
 
 const Services = () => {
@@ -29,13 +27,11 @@ const Services = () => {
             smooth={true}
             offset={-70}
             duration={300}>
-                {/* <img className='services-lash-image' src={Lash} alt='lashes'/> */}
                 <div className='service-lash-image-1'>
                     <div className='service-type-filter'>
                         <p className='service-type-label'>Classic</p>
                     </div>
                 </div>
-                {/* <h3>Classic</h3> */}
             </Link>
             <Link 
             className='services-type'
@@ -67,14 +63,12 @@ const Services = () => {
             </Link>
         </div>
         </div>
-        {/* <BackgroundTwo /> */}
         <div className='info-container'>
         <h1 className='info-pricing'>Info and Pricing</h1>
         <Container className='services-grid'>
             <div className='row'>
                 <div className='col-md'>
                     <Card className='service-card' id='card-1'>
-                        {/* <CardImg className='card-image' variant="top" src={Lash}/> */}
                         <Card.Body>
                             <Card.Title>Classic Full Set <p className='card-time'>2 hours</p></Card.Title>
                             <Card.Text id='card-1-text' >
@@ -87,7 +81,6 @@ const Services = () => {
                 </div>
                 <div className='col-md'>
                     <Card className='service-card' id='card-2'>
-                        {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Volume Full Set <p className='card-time'>2 hours 40 min.</p></Card.Title>
                             <Card.Text>
@@ -103,7 +96,6 @@ const Services = () => {
             <div className='row'>
                 <div className='col-md'>
                     <Card className='service-card' id='card-3'>
-                        {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Mega Volume Full Set <p className='card-time'>2 hours 30 min.</p></Card.Title>
                             <Card.Text>
@@ -116,7 +108,6 @@ const Services = () => {
                 </div>
                 <div className='col-md'>
                     <Card className='service-card' id='card-4'>
-                        {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Luxury classics <p className='card-time'>2 hours</p></Card.Title>
                             <Card.Text>
@@ -131,7 +122,6 @@ const Services = () => {
             <div className='row'>
                 <div className='col-md'>
                     <Card className='service-card' id='card-5'>
-                        {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Hybrid Lashes <p className='card-time'>2 hours</p></Card.Title>
                             <Card.Text>
@@ -144,7 +134,6 @@ const Services = () => {
                 </div>
                 <div className='col-md'>
                     <Card className='service-card' id='card-6'>
-                        {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Classic Fill In<p className='card-time'>1 hour 30 min.</p></Card.Title>
                             <Card.Text>
@@ -159,7 +148,6 @@ const Services = () => {
             <div className='row'>
                 <div className='col-md'>
                     <Card className='service-card' id='card-7'>
-                        {/* <CardImg className='card-image' variant="top" src={Lash} /> */}
                         <Card.Body>
                             <Card.Title>Hybrid Fill In<p className='card-time'>1 hour 5 min.</p></Card.Title>
                             <Card.Text>

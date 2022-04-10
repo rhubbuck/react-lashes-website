@@ -24,7 +24,7 @@ const Contact = () => {
       <div className='layer'>
         <RouteNav />
           <div className='contact-container'>
-            <h1 className='contact-header'>(123) 123-1234</h1>
+            <h1 className='contact-header'>(256) 393-0212</h1>
             <h2 className='contact-subheader'>Have a question? Contact me here!</h2>
             <form ref={form} onSubmit={sendEmail} className="contact-form">
                 <label className='contact-label'>Name</label>

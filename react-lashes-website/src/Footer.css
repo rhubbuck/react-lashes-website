@@ -36,6 +36,11 @@
   margin: 8px;
 }
 
+.email-to {
+  text-decoration: underline;
+  color: rgb(109, 109, 109);
+}
+
 @media only screen and (max-width: 1024px) {
   .footer-link-wrapper {
     margin: 0 3rem;
